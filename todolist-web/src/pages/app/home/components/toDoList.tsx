@@ -86,11 +86,11 @@ export function TodoList({ userId }: ToDoListProps) {
           completedTask={completedTask}
         />
       </div>
-      <footer className="mt-auto flex items-center justify-center">
+      <div className="mt-auto flex items-center justify-center">
         <Button variant={"destructive"} onClick={handleSignOut}>
           Sair
         </Button>
-      </footer>
+      </div>
     </div>
   );
 }

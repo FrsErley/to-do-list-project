@@ -23,7 +23,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="h-screen">
+    <div className="h-full">
       <div className="my-0 mx-auto bg-[#1A1A1A] px-5 pb-5 lg:w-[46rem] flex-grow">
         <TodoList userId={userId} />
       </div>
